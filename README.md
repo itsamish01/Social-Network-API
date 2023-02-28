@@ -15,11 +15,11 @@ License
 Clone the repository to your local machine.
 Install the required dependencies using the following command:
 Copy code
-~npm install~
+npm install
 Start the server using the following command:
 sql
 Copy code
-~npm start~
+npm start
 
 ## Usage
 This API can be used to create, read, update, and delete users and their thoughts, as well as add and remove friends.
@@ -28,11 +28,11 @@ This API can be used to create, read, update, and delete users and their thought
 The following routes are available:
 
 ~GET all users: /api/users~
-GET a single user by id: ~/api/users/:id~
-PUT update a user by id: ~/api/users/:id~
-DELETE a user by id: ~/api/users/:id~
-POST add a new friend: ~/api/users/:userId/friends/:friendId~
-DELETE remove a friend: ~/api/users/:userId/friends/:friendId~
+GET a single user by id: api/users/:id
+PUT update a user by id: api/users/:id
+DELETE a user by id: api/users/:id
+POST add a new friend: /api/users/:userId/friends/:friendId
+DELETE remove a friend: /api/users/:userId/friends/:friendId
 
 ## Technologies
 Express.js
