@@ -1,11 +1,10 @@
 {
-  "name": "social-network-api",
+  "name": "social-media-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "An API for a social media app built with Express, Mongoose, and MongoDB",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
