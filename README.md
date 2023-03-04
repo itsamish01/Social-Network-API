@@ -1,6 +1,10 @@
 ## Social Network API
 This is an API for a social networking web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. It uses Express.js for routing, a MongoDB database, and the Mongoose ODM.
 
+## User story
+
+As a user of a social network API, I want to be able to retrieve the latest posts from my friends so that I can stay up-to-date with their activities and interests.
+
 ## Table of Contents
 Installation
 Usage
